@@ -1,0 +1,31 @@
+
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+
+.wrapper > div, .wrapper > label {
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+}
+
+.button {
+    border: none;
+    border-radius: 6px;
+    padding: 8px 10px;
+    color: white;
+    background: #198754;
+}
+
+.button_del {
+    background: #DC3545;
+}
+
+.compleat {
+    text-decoration: line-through;
+}
